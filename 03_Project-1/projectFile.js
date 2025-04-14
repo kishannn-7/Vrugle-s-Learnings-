@@ -15,12 +15,12 @@ console.log(arr2.pop());
 console.log(arr2); // Output: [0, 1, 2, 3, 4, 5]
 
 
-// Given an array: ["apple", "banana", "orange"], check if "banana" exists in the array.
+// Given an array: ["apple", "banana", "orange"], check if "banana" exists in the array.-------------------------------
 let fruits = ["apple", "banana", "orange"];
 console.log(fruits.includes("banana"));
 
 
-// Write an object to represent a car with properties like brand, model, and year.
+// Write an object to represent a car with properties like brand, model, and year.---------------------------------------
 let car = {
     brand: "Honda",
     model: "Amaze",
@@ -28,11 +28,11 @@ let car = {
 };
 
 
-// Add a new property (color) to an existing object dynamically.
+// Add a new property (color) to an existing object dynamically.-----------------------------------------------------------
 car.color = "Yellow";
 
 
-// Given an object { name: "John", age: 25 }, delete the age property.
+// Given an object { name: "John", age: 25 }, delete the age property.--------------------------------------------------------
 let person = {
     name: "John",
     age: 25
