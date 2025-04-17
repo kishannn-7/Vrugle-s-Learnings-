@@ -1,7 +1,5 @@
-import { Greeting } from "./kishan.js";
-
 import Nobody from "./kishan.js";  // Default import (you can name it whatever you want)
-import { city } from "./kishan.js";  // Named import (names must match)
+import { Greeting , city } from "./kishan.js";  // Named import (names must match)
 
 
 
