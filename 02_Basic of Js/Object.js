@@ -157,3 +157,34 @@ console.log(instructor);
 //     "price": "free"
 // }
 
+
+// We can use outer context js object inside any object without giving any value to them,
+// and also override them with the new value. and that new value will be able only for that object scope the original value can't be changed.
+
+let name= "hitesh";
+let age = 18;
+let isLoggedIn;
+let otherObj = {
+    firstName: "Kishan",
+    lastName: "Patel",
+    fullName: `${this.firstName} ${this.lastName}`,
+    age: 20,
+    print : function(){
+        console.log(`Hello ${this.firstName} ${this.lastName}, Your age is ${age}`); // if we use age like this it take global scope veriable we have to use this.age to take the object scope variable.
+    },
+}
+
+const testUser = {
+    name,
+    age: 20,
+    isLoggedIn : true,
+    greet: function(){
+        console.log("Hello User");
+    },
+}
+
+console.log(testUser);
+console.log(isLoggedIn);
+console.log(age);
+
+
