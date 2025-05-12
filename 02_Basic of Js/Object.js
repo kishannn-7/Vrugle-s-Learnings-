@@ -12,7 +12,7 @@ const JsUser = {
     [mySym]: "mykey1",
     age: 18,
     location: "Jaipur",
-    email: "hitesh@google.com",
+    // email: "hitesh@google.com",
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
@@ -25,7 +25,7 @@ const JsUser = {
 JsUser.email = "hitesh@chatgpt.com"
 // Object.freeze(JsUser)
 JsUser.email = "hitesh@microsoft.com"
-// console.log(JsUser);
+console.log(JsUser);
 
 JsUser.greeting = function(){
     console.log("Hello JS user");

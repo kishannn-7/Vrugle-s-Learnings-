@@ -360,7 +360,7 @@ function checkArmstrongNum(num) {
 // console.log(checkArmstrongNum(370));
 
 // Extra work -- Armstrong generator according to n (give input of the user)
-// This
+// This is Bad Algorithem try to put num< 10^8 , other wise its consume so much time
 function getArmstrong(n) {
   function check(num) {
     if (num > 0) {
